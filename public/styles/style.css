@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Timmana:regular");
 
-/* Universal Selector */
+
 * {
   box-sizing: border-box;
   font-family: "Timmana", sans-serif;
@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-/* Body Styling */
+
 body {
   margin: 0;
   padding: 20px;
@@ -17,7 +17,7 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation Styling */
+
 nav {
   background: linear-gradient(to right, #005f99, #009990);
   padding: 15px 50px;
@@ -30,7 +30,7 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Link Styling */
+
 a {
   all: unset;
   display: block;
@@ -53,7 +53,7 @@ a:hover {
   transform: scale(1.1);
 }
 
-/* Form Styling */
+
 form {
   display: flex;
   flex-direction: column;
@@ -68,7 +68,6 @@ form {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Form Inputs */
 form input,
 form textarea,
 form button {
@@ -92,14 +91,14 @@ form button:hover {
 
 h1 {
   
-  font-size: 36px; /* Taille de police */
-  font-weight: bold; /* Gras */
-  text-align: center; /* Centrer le texte */
-  color: #333; /* Couleur du texte */
-  text-transform: uppercase; /* Transforme le texte en majuscules */
-  letter-spacing: 2px; /* Espacement entre les lettres */
-  margin: 20px 0; /* Marges au-dessus et en dessous */
-  padding: 10px 0; /* Padding autour du texte */
-  border-bottom: 3px solid #4CAF50; /* Bordure sous le titre */
-  background-color: #f4f4f4; /* Couleur de fond du titre */
+  font-size: 36px; 
+  font-weight: bold; 
+  text-align: center; 
+  color: #333; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  margin: 20px 0; 
+  padding: 10px 0; 
+  border-bottom: 3px solid #4CAF50; 
+  background-color: #f4f4f4; 
 }
